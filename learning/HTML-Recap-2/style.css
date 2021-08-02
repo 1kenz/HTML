@@ -1,0 +1,14 @@
+/* CSS 
+1- inline styling (inside the tag)
+2- internal styling (inside the head tag)
+3- external styling (external file)
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    color: blueviolet;
+    list-style-type: symbols("-");
+}

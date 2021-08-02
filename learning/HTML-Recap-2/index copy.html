@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Recap-2</title>
+    <!-- <base href="images/"> -->
+</head>
+
+<body>
+    <!-- ! Listeler -->
+    <!-- ul>li*5{item $} -->
+    <!-- unordered list -->
+    <h3>Unordered List</h3>
+    <ul style="list-style-type: disc;"> Item List
+        <li>item-1
+            <ol> sub-item
+                <li>sub-item-2</li>
+                <li>sub-item-3</li>
+                <li>sub-item-4</li>
+                <li>sub-item-1</li>
+                <li>sub-item-5</li>
+            </ol>
+        </li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+    </ul>
+    <hr>
+    <!-- Ordered List -->
+    <h3>Ordered List</h3>
+    <ol start="5" type="A">
+        <li>item-1</li>
+        <li>item-2
+            <ul>
+                <li>sub-item1</li>
+                <li>sub-item2</li>
+                <li>sub-item3</li>
+            </ul>
+        </li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+    </ol>
+    <hr>
+    <!-- definition list -->
+    <h3>Definition List</h3>
+    <dl>
+        <dt>Scale</dt>
+        <dd>A device used to accuratly measure the weight of ingedients</dd>
+        <dt>Sashimi</dt>
+        <dd>Sliced raw fish that is served with condiment such as shredded daikon radish or ginger root. wasabi and soy sauce</dd>
+    </dl>
+    <hr>
+    <!-- images -->
+    <h3>Images</h3>
+    <img src="images/barney.png" alt="Barney" width="200">
+    <img src="https://upload.wikimedia.org/wikipedia/tr/b/bb/Fred_%C3%87akmakta%C5%9F.jpg" alt="Fred" width="100">
+
+    <!-- Tables -->
+    <!-- table>tr*3>td*3 -->
+    <h3>Tables</h3>
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Kurs Adı</th>
+                <th>Kurs Saati</th>
+                <th>Ders Adedi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>45</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>35</td>
+                <td rowspan="2">200</td>
+            </tr>
+            <tr>
+                <td colspan="2">JavaScript</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Toplam</td>
+                <td>500</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Linkler -->
+    <h3>Links</h3>
+    <a href="https://www.w3schools.com/tags/tag_base.asp" target="_blank">w3schools</a>
+    <hr>
+    <a href="./uygulama_çalışması.html">Başka bir web sitesi</a>
+    <br>
+    <hr>
+    <a href="./images/betty.jpg" target="_blank">Betty</a>
+    <hr>
+    <a href="./uygulama_çalışması.zip">indir</a>
+    <hr>
+    <a href="index2.html"><img src="./images/barney.png" alt="barny" width="100"></a>
+</body>
+
+</html>
